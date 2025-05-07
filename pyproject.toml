@@ -1,0 +1,15 @@
+[project]
+name = "ai-prompt-research"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp-server-fetch>=2025.4.7",
+    "mcp-server-time>=0.6.2",
+    "requests>=2.32.3",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
